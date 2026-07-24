@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+
+# 数据库缓存（可删除后 --rebuild 重新生成）
+loot_db.json
+
+# 游戏数据目录（太大，不应包含在仓库中）
+4.*/
+5.*/
+2956/
+
+# 分析脚本和工作文件
+_run_*.py
+*.txt
+*.csv
+*.html
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+.DS_Store
